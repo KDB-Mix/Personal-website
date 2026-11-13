@@ -19,3 +19,23 @@ Create an issue in the issues section
 little help is taking from ai,ai is used a an teacher.
 
 Created by Piyush warang
+___
+If you want to edit it, make sure that you have git installed, and run this in the 'git cmd' app or the terminal:
+
+```git clone https://github.com/KDB-Mix/Personal-website```
+
+You will have a folder named `Personal-website` in the place where you ran the command from (default in windows is C:/Users/your-username)
+
+Then make sure that you have npm installed and correctly setup
+
+To run the page on your machine, in the terminal, go to the repo folder
+
+```cd Personal-website```
+
+and run:
+
+```npm run dev```
+
+To build it, go to that same folder in the terminal and run
+
+```npm run build```
