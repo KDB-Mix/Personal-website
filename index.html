@@ -26,43 +26,49 @@
 
         <div class="how-to-recreate">
         <h2>How to recreate</h2>
-        <div id="tutorial">
-            <p>First, this is the <a href="https://github.com/KDB-Mix/Personal-website/">source code</a>.<br>
-            For the projects, I used a <a href="https://github.com/KDB-Mix/Personal-website/blob/main/src/main.js" target="_blank">script</a> to fetch them from <a href="https://github.com/KDB-Mix/Personal-website/blob/main/projects.json" target="_blank">here</a>.<br>
-            So basically, it fetches the projects from the file named <a href="projects.json" target="_blank">projects.json</a>, it has all my projects, their title and details.
-            For the animation, just make a section that has:</p>
-            <pre>
-@keyframe{
-    
+            <ul id="tutorial">
+                <li>
+                    First, this is the <a href="https://github.com/KDB-Mix/Personal-website/">source code</a>.
+                </li>
+                <li>
+                    For the projects, I used a <a href="https://github.com/KDB-Mix/Personal-website/blob/main/src/main.js" target="_blank">script</a> to fetch them from <a href="https://github.com/KDB-Mix/Personal-website/blob/main/projects.json" target="_blank">here</a>.<br>
+                    So basically, it fetches the projects from the file named <a href="projects.json" target="_blank">projects.json</a>, it has all my projects, their title and details.
+                </li>
+                <li>
+                    For the animation, just make a section that has:
+                </li>
+                <pre>
+    @keyframe{
+        
+        }
+                </pre>
+                <li>Then put in it:</li>
+                <pre>
+    from{
+        /*your transform from*/
     }
-            </pre>
-            <p>Then put in it:</p>
-            <pre>
-from{
-    /*your transform from*/
-}
-to{
-    /*your transform to*/
-}
-            </pre>
-            <p>You could find online tutorials for this. <br>
-            I used: </p>
-            <pre>
-0%{
+    to{
+        /*your transform to*/
+    }
+                </pre>
+                <li>You could find online tutorials for this. <br>
+                I used: </li>
+                <pre>
+    0%{
 
-}
-50%{
+    }
+    50%{
 
-}
-100%{
+    }
+    100%{
 
-}
-            </pre>
-            <p>
-            That just means when to do the transform in the animation. <br>
-            Here is the <a href="https://github.com/KDB-Mix/Personal-website/blob/main/src/style.css">styles.css</a>.
-            </p>
-        </div>
+    }
+                </pre>
+                <p>
+                That just means when to do the transform in the animation. <br><br>
+                Here is the <a href="https://github.com/KDB-Mix/Personal-website/blob/main/src/style.css">styles.css</a>.
+                </p>
+            </ul>
         </div>
 
         <div class="contact">
