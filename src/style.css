@@ -68,6 +68,11 @@ h3{
     text-align: center;
     margin: 10px auto;
 }
+
+.projectlink:hover{
+    animation: button-hover 1s infinite;
+}
+
 a{
     color: aliceblue;
 }
@@ -84,5 +89,32 @@ img{
     to{
         transform: translateY(0);
         opacity: 100;
+    }
+}
+@keyframes button-hover {
+    0%{
+        transform: translateY(0);
+        opacity: 100;
+        rotate: 0;
+    }
+    25%{
+        transform: translateY(-7px);
+        opacity: 90;
+        rotate: 3deg;
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 100;
+        rotate: 0;
+    }
+    75%{
+        transform: translateY(-7px);
+        opacity: 90;
+        rotate: -3deg;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 100;
+        rotate: 0;
     }
 }
