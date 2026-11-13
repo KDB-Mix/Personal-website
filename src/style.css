@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    
+   
+    
+}
+h1{
+    color: cyam;
+    text-align: center;
+}
+
+h2{
+    color: orange;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+}
+
+h3{
+    color:aqua;
+    text-align: center;
+}
+ 
+.about,#projects,.hobbies,.contact{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project{
+    padding:10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: rgb(69, 67, 67);
+    width: 500px;
+}
+
+.projectlink {
+    display: block;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.0);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+        inset 0 0 42px 21px rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    border: 3px solid rgb(255 255 255 / 0.5);
+    padding: 10px 13px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #f4f3e9;
+    width: fit-content;
+    text-align: center;
+    margin: 10px auto;
+}
+a{
+    color: aliceblue;
+}
