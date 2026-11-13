@@ -26,7 +26,7 @@ h3{
     text-align: center;
 }
  
-.about,#projects,.hobbies,.contact{
+.about,#projects,.hobbies,.contact,.how-to-recreate{
     margin: 20px;
     padding: 20px;
     border: 1px solid gray;
@@ -34,6 +34,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: slide-in .5s forwards ease-in-out;
 }
 
 .project{
@@ -42,6 +43,10 @@ h3{
     margin-top: 10px;
     background-color: rgb(69, 67, 67);
     width: 500px;
+    animation: slide-in .5s forwards ease-in-out;
+    @starting-style{
+        opacity: 0;
+    }
 }
 
 .projectlink {
@@ -65,4 +70,19 @@ h3{
 }
 a{
     color: aliceblue;
+}
+img{
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+}
+@keyframes slide-in{
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 100;
+    }
 }
